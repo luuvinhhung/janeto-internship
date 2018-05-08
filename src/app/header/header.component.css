@@ -1,0 +1,15 @@
+:host {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+h3 { 
+    justify-self: start;
+}
+input {
+    justify-self: end;
+    min-width: 300px;
+    height: 2rem;
+    padding: 0 0.5rem;
+    align-self: center;
+}

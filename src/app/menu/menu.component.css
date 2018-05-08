@@ -1,0 +1,11 @@
+:host { 
+    background-color:#415450;
+    text-align: center;
+    color: white;
+}
+h2 {
+    margin-bottom: 250px;
+}
+.icon {
+    margin: 10px;
+}

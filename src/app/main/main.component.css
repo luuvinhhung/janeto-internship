@@ -1,0 +1,10 @@
+.team {
+    border-bottom: 2px #9a9ca0 solid;
+}
+img {
+    padding: 5px;
+    display: inline;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}

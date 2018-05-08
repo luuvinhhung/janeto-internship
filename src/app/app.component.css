@@ -1,0 +1,15 @@
+.content { 
+    display: flex;
+}
+app-menu {
+    height: calc(100vh - 59px);
+    width: 100px;
+}
+app-match-map {
+    height: calc(100vh - 59px);
+    width: 900px;
+}
+.main {
+    background-color:  #c2c2a3;
+    flex: 1;
+}
