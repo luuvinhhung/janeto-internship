@@ -1,11 +1,17 @@
 :host { 
-    background-color:#415450;
+    background-color:#434343;
     text-align: center;
     color: white;
 }
-h2 {
-    margin-bottom: 250px;
+.avar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px; 
+    margin-bottom: calc(100vh - 600px);
 }
 .icon {
     margin: 10px;
+}
+p {
+    font-size: 10px;
 }

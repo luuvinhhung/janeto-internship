@@ -1,10 +1,48 @@
+:host {
+    background-color: #F5F5F5;
+}
 .team {
     border-bottom: 2px #9a9ca0 solid;
+    display: flex;
 }
-img {
+.logo {
     padding: 5px;
-    display: inline;
+    flex: 1;
+}
+.logo img{
     height: 100px;
     width: 100px;
-    border-radius: 50px;
+}
+.name {
+    flex: 1;
+    text-align: left;
+    padding-top: 10px;
+}
+.name h3{
+    text-transform: uppercase;
+}
+.onl {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: #1DFF04;
+    display: inline-block;
+    text-transform: lowercase;
+}
+.off {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: rgb(135, 136, 135);
+    display: inline-block;
+}
+.far {
+    flex: 1;
+    text-align: center;
+    padding-top: 10%;
+}
+.far a{
+    flex: 1;
+    text-align: center;
+    font-size: 35px;
 }

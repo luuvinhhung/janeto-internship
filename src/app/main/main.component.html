@@ -1,7 +1,25 @@
 <div>
     <div class="team" *ngFor='let team of teams'>
-        <img src = {{team.logo}} alt="">
-        <span>{{team.name}}</span>
-        <span>{{team.far}}</span>
+        <div class="logo">
+            <img src= {{team.logo}} alt="">
+        </div>
+
+        <div class="name">
+            <h3>{{team.name}}</h3>
+            <div *ngIf='team.onl'>
+                <div class="onl"></div>
+                <span>online</span>
+            </div>
+            <div *ngIf='!team.onl'>
+                <div class="off"></div>
+                <span>offline</span>
+            </div>
+        </div>
+
+        <div class="far">
+            <a>{{team.far}}</a>
+            <span>m</span>
+        </div>
+
     </div>
 </div>
